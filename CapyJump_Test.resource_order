@@ -1,0 +1,21 @@
+{
+  "FolderOrderSettings":[
+    {"name":"player","order":1,"path":"folders/Sprites/player.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"TestRoom_1","order":2,"path":"rooms/TestRoom_1/TestRoom_1.yy",},
+    {"name":"TestRoom","order":1,"path":"rooms/TestRoom/TestRoom.yy",},
+    {"name":"platformtest","order":2,"path":"sprites/platformtest/platformtest.yy",},
+    {"name":"sCapyDown_e","order":11,"path":"sprites/sCapyDown_e/sCapyDown_e.yy",},
+    {"name":"sCapyDown","order":2,"path":"sprites/sCapyDown/sCapyDown.yy",},
+    {"name":"sCapyHang","order":7,"path":"sprites/sCapyHang/sCapyHang.yy",},
+    {"name":"sCapyIdle_e","order":8,"path":"sprites/sCapyIdle_e/sCapyIdle_e.yy",},
+    {"name":"sCapyIdle","order":6,"path":"sprites/sCapyIdle/sCapyIdle.yy",},
+    {"name":"sCapyJump_e","order":9,"path":"sprites/sCapyJump_e/sCapyJump_e.yy",},
+    {"name":"sCapyJump","order":4,"path":"sprites/sCapyJump/sCapyJump.yy",},
+    {"name":"sCapySit","order":3,"path":"sprites/sCapySit/sCapySit.yy",},
+    {"name":"sCapyWalk_e","order":10,"path":"sprites/sCapyWalk_e/sCapyWalk_e.yy",},
+    {"name":"sCapyWalk","order":5,"path":"sprites/sCapyWalk/sCapyWalk.yy",},
+    {"name":"sGrapplingHook","order":1,"path":"sprites/sGrapplingHook/sGrapplingHook.yy",},
+  ],
+}
