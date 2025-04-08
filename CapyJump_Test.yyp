@@ -61,9 +61,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"TestRoom_1","path":"rooms/TestRoom_1/TestRoom_1.yy",},},
     {"roomId":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},
     {"roomId":{"name":"TutorialRoom","path":"rooms/TutorialRoom/TutorialRoom.yy",},},
-    {"roomId":{"name":"TestRoom_1","path":"rooms/TestRoom_1/TestRoom_1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

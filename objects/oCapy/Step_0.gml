@@ -87,11 +87,11 @@ switch (player_state) {
 
 	    var radius = point_distance(oGrapplingHook.x, oGrapplingHook.y, x, y);
 	    var radius_change_speed = 2;
-	    var input_force = 0.25;
+	    var input_force = 0.35;
 	    var gravity_force = 0.5;
     
 	    // Define a maximum swing velocity
-	    var max_swing_velocity = 4.5; // Adjust this value as needed
+	    var max_swing_velocity = 3; // Adjust this value as needed
 
 	    if (keyboard_check(vk_right)) {
 	        swing_ang_vel += input_force;
@@ -144,7 +144,7 @@ switch (player_state) {
 	    }
     
 	    if (keyboard_check_released(ord("Z"))) {
-	        var launch_force = 2;
+	        var launch_force = 3;
 	        move_x = lengthdir_x(swing_ang_vel * launch_force, swing_angle + 90);
 	        move_y = lengthdir_y(swing_ang_vel * launch_force, swing_angle + 90);
         
