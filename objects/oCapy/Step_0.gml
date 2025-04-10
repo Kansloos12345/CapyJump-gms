@@ -144,8 +144,7 @@ switch (player_state) {
 	    }
     
 	    if (keyboard_check_released(ord("Z"))) {
-	        var launch_force = 3;
-	        move_x = lengthdir_x(swing_ang_vel * launch_force, swing_angle + 90);
+	        var launch_force = 2;
 	        move_y = lengthdir_y(swing_ang_vel * launch_force, swing_angle + 90);
         
 	        player_state = pState.NORMAL;
@@ -167,4 +166,9 @@ if (keyboard_check_pressed(ord("Z")) && !instance_exists(oGrapplingHook)) {
     hook.max_distance = 240; 
     hook.owner = global.owner; 
     hook.retracting = false;
+}
+
+
+if (bbox_top > room_height) {	
+	room_restart();
 }
