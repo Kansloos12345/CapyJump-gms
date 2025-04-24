@@ -1,11 +1,16 @@
 {
   "FolderOrderSettings":[
+    {"name":"parallax","order":4,"path":"folders/Sprites/parallax.yy",},
     {"name":"player","order":1,"path":"folders/Sprites/player.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"oParallax","order":2,"path":"objects/oParallax/oParallax.yy",},
     {"name":"TestRoom_1","order":2,"path":"rooms/TestRoom_1/TestRoom_1.yy",},
     {"name":"TestRoom","order":1,"path":"rooms/TestRoom/TestRoom.yy",},
+    {"name":"parallax2","order":1,"path":"sprites/parallax2/parallax2.yy",},
+    {"name":"parallax3","order":2,"path":"sprites/parallax3/parallax3.yy",},
     {"name":"platformtest","order":2,"path":"sprites/platformtest/platformtest.yy",},
+    {"name":"sCapyDeath","order":12,"path":"sprites/sCapyDeath/sCapyDeath.yy",},
     {"name":"sCapyDown_e","order":11,"path":"sprites/sCapyDown_e/sCapyDown_e.yy",},
     {"name":"sCapyDown","order":2,"path":"sprites/sCapyDown/sCapyDown.yy",},
     {"name":"sCapyHang","order":7,"path":"sprites/sCapyHang/sCapyHang.yy",},

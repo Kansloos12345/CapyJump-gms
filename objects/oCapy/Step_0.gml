@@ -169,6 +169,6 @@ if (keyboard_check_pressed(ord("Z")) && !instance_exists(oGrapplingHook)) {
 }
 
 
-if (bbox_top > room_height) {	
+if (bbox_top > room_height) {
 	room_restart();
 }
